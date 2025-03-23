@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <center><tile>Formulario 1</tile></center>
+    </head>
+    <br>
+    <body bgcolor="orange">
+        <center><img src="D:\Desarrollo de Sitios Web Jorge Alvarado\img/logo.png" alt="logo del instituto" width="200px"
+            height="200px"></center>
+    <br>
+    <form action="#" name="Solucion del Formulario">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" maxlenght="30">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="correo@empresa.com" maxlenght="30">
+        <br>
+        <br>
+        <label for="asunto">Asunto</label>
+        <br>
+        <select name="asunto" id="asunto" size="3">
+           <option value="InformacionWeb">Pedir informacion web</option>
+           <option value="CitaPrevia">Solicitar cita previa</option>
+           <option value="Otros">Otros</option>
+        </select>
+        <br>
+        <br>
+        <label for="marketing">¿Como nos has conocido?</label>
+        <div class="marketing">
+            <input type="checkbox" value="amigo"><label for="amigo">Un amigo</label>
+            <input type="checkbox" value="familiar"><label for="familiar">Un familiar</label>
+            <input type="checkbox" value="anuncio"><label for="anuncio">Anuncio</label>
+            <input type="checkbox" value="video"><label for="video">Un video</label>
+            <input type="checkbox" value="sitioweb"><label for="sitioweb">Un sitio web</label>
+            <input type="checkbox" value="otros"><label for="otros">Otros</label>
+        </div>
+        <br>
+        <br>
+        <label for="mensaje">Danos tu opinion</label>
+        <br>
+        <textarea name="mensaje" id="mensaje" maxlenght="400"></textarea>
+        <br>
+        <br>
+        <input type="checkbox" value="Acepta_RGPD" id="rgpd" required><label for="rgpd" class="rgpd">He leido y aceptado el
+            <a href="#" target="_blank">Aviso legal y la politica de privacidad</a>
+    </form>
+    </body>
+</html>
